@@ -12,7 +12,7 @@ It is using a public tenant on PactFlow, which you can access [here](https://tes
 
 The project uses a Makefile to simulate a very simple build pipeline with two stages - test and deploy.
 
-* Test
+* Test123
   * Run tests (including the pact tests that generate the contract)
   * Publish pacts, associating the consumer version with the name of the current branch
   * Check if we are safe to deploy to prod (ie. has the pact content been successfully verified)
