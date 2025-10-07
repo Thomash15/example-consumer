@@ -23,7 +23,7 @@ describe('API Pact test', () => {
       };
 
       // Uncomment to see this fail
-      // const expectedProduct = { id: '10', type: 'CREDIT_CARD', name: '28 Degrees', price: 30.0, newField: 22}
+      const expectedProduct = { id: '10', type: 'CREDIT_CARD', name: '28 Degrees', price: 30.0, newField: 22}
 
       mockProvider
         .given('a product with ID 10 exists')
