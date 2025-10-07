@@ -36,7 +36,7 @@ describe('API Pact test', () => {
           }
         })
         .willRespondWith({
-          status: 400,
+          status: 200,
           headers: {
             'Content-Type': 'application/json; charset=utf-8'
           },
