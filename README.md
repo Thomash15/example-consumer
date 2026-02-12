@@ -10,7 +10,7 @@ This is an example test of a Node consumer using Pact to create a consumer drive
 
 It is using a public tenant on PactFlow, which you can access [here](https://test.pactflow.io/) using the credentials `dXfltyFMgNOFZAxr8io9wJ37iUpY42M`/`O5AIZWxelWbLvqMd8PkAVycBJh2Psyg1`. The latest version of the Example Consumer/Example Provider pact is published [here](https://test.pactflow.io/pacts/provider/pactflow-example-provider/consumer/pactflow-example-consumer/latest).
 
-The project uses a Makefile to simulate a very simple build pipeline with two stages - test and deploy. 123
+The project uses a Makefile to simulate a very simple build pipeline with two stages - test and deploy. 
 
 * Test123
   * Run tests (including the pact tests that generate the contract)
